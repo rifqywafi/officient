@@ -1,1 +1,20 @@
-
+.bg {
+  background-color: rgb(34, 134, 55);
+}
+.nav-link {
+  color: white;
+}
+.nav-item {
+  transition: 0.5s;
+}
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.959);
+  color: black;
+  border-radius: 15px;
+  padding: auto;
+  height: auto;
+}
+.font1 {
+  font-family: Georgia, serif;
+  font-size: 17px;
+}
