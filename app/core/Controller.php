@@ -1,15 +1,14 @@
 <?php
 class Controller{
     public function view($view, $data = []){
-        require '../app/views/'.$view.'.php';
+        require_once '../app/views/'.$view.'.php';
     }
-    public function model($model){
-        require '../app/views/'.$model.'.php';
-        return $model;
-    }
+    
+    
 
-    public function pengumuman($pengumuman){
-        require '../app/views/'.$pengumuman.'.php';
-        return $pengumuman;
+    public function model($model)
+    {
+        require_once '../app/models/' . $model . '.php';
+        return new $model;
     }
 }
