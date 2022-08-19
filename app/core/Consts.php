@@ -1,3 +1,3 @@
 <?php
 
-define('BASEURL', 'http://localhost:8080/officient/public');
+define('BASEURL', 'http://localhost/officient/public');

@@ -1,2 +1,2 @@
-<?php 
-header("location:http://localhost:8080/officient/public");
+<?php
+header("location:http://localhost/officient/public");

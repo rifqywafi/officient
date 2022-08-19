@@ -2,14 +2,19 @@
   background-color: rgb(34, 134, 55);
 }
 .nav-link {
-  font-family: Georgia, serif;
-  font-size: 18px;
+  color: white;
+}
+.nav-item {
+  transition: 0.5s;
+}
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.959);
   color: black;
+  border-radius: 15px;
+  padding: auto;
+  height: auto;
 }
-.nav-link:hover {
-  color: rgb(34, 134, 55);
-  transition: 0.7s;
-}
-.nav-link:active {
-  color: rgb(34, 134, 55);
+.font1 {
+  font-family: Georgia, serif;
+  font-size: 17px;
 }
