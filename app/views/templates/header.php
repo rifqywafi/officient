@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="<?= BASEURL;?>/css/bootstrap.css">
     <link rel="stylesheet" href="<?= BASEURL;?>/icons/bootstrap-icons.css">
     <link rel="stylesheet" href="<?= BASEURL;?>/css/style.css">
-    <script type="text/javascript" src="<?= BASEURL;?>/js/jquery.js"></script>
     <title>OFC | <?= $data['judul'] ?></title>
 </head>
 <body>
@@ -25,10 +24,10 @@
                         <i class="fs-4 bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span></a>
                     </li>
                     <li>
-                        <a href="#karyawan-collapse" id="karyawan-toggle" class="nav-link px-0 align-middle" data-bs-toggle="collapse" aria-controls="karyawan-collapse" aria-expanded="false">
-                        <i class="fs-4 bi-people mr-1"></i> <span class="ms-1 d-none d-sm-inline">Karyawan</span><i class="bi bi-caret-down-fill mx-1 py-1" style="font-size:12px;"></i></a>
-                        <div class="collapse navbar-collapse" id="karyawan-collapse">
-                            <ul class="nav-link nav fw-normal pb-1 bg-light small">
+                        <a href="#karyawan-collapse" id="karyawan-toggle" role="button" class="nav-link px-0 align-middle" data-bs-toggle="collapse" aria-controls="karyawan-collapse" aria-expanded="false">
+                        <i class="fs-4 bi-people mr-1"></i> <span class="ms-1 d-none d-sm-inline">Karyawan</span><i class="bi bi-caret-down-fill arrow-down-animated mx-1 py-1" style="font-size:12px;"></i></a>
+                        <div class="collapse" id="karyawan-collapse" style="">
+                            <ul class="navbar-collapse nav pb-1 bg-light">
                                 <li class="nav-item"><a href="<?= BASEURL;?>/data" class="nav-link">
                                 <i class="fs-4 bi-folder-fill mx-2"></i>Data</a></li>
                                 <li class="nav-item"><a href="<?= BASEURL;?>/absensi" class="nav-link">
@@ -50,7 +49,6 @@
                     </li>
                 </ul>
                 <hr>
-                </div>
                 <div class="dropdown pb-4">
                     <a href="#menuuser" class="d-flex align-items-center text-dark dropdown-toggle" id="dropdownUser" data-bs-toggle="dropdown" aria-controls="menuuser" aria-expanded="false">
                         <i class="bi bi-person-circle-fill" alt="profile" width="30" height="30" class="rounded-circle">
@@ -68,5 +66,6 @@
                     </ul>
                 </div>
             </div>
+        </div>
 <div class="col py-3">
 
