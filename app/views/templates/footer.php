@@ -1,7 +1,9 @@
-<script src="<?= BASEURL; ?>/css/bootstrap.js"></script>
-<script src="<?= BASEURL; ?>/css/bootstrap.bundle.js"></script>
-<script src="<?= BASEURL; ?>/css/dataTable.min.js"></script>
-<script src="<?= BASEURL; ?>/css/jquery.js"></script>
+</div>
+<script src="<?= BASEURL; ?>/js/bootstrap.js"></script>
+<script src="<?= BASEURL; ?>/js/bootstrap.bundle.js"></script>
+<script src="<?= BASEURL; ?>/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?= BASEURL; ?>/js/sidebar.js"></script>
+
 </body>
 
 </html>

@@ -1,20 +1,30 @@
 .bg {
   background-color: rgb(34, 134, 55);
 }
-.nav-link {
-  color: white;
-}
-.nav-item {
-  transition: 0.5s;
-}
-.nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.959);
+ul.nav li a.nav-link {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
   color: black;
-  border-radius: 15px;
-  padding: auto;
-  height: auto;
+  text-decoration: none;
 }
-.font1 {
-  font-family: Georgia, serif;
-  font-size: 17px;
+ul.nav li a.nav-link {
+  display: inline-block;
+  padding-bottom: 1px;
+  background: linear-gradient(rgb(34, 134, 55), rgb(34, 134, 55)) center bottom;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: all 0.65s;
+}
+ul.nav li a:hover {
+  color: rgb(34, 134, 55);
+  background-size: 100% 2px;
+}
+.nav-link:active {
+  color: rgb(34, 134, 55);
+}
+#menu a:focus {
+  color: rgb(34, 134, 55) !important;
+}
+#karyawan-collapse {
+  transition: 0.7s;
 }
